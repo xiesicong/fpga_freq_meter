@@ -1,0 +1,10 @@
+set_property IOSTANDARD LVCMOS33 [get_ports clk_out]
+set_property IOSTANDARD LVCMOS33 [get_ports clk_test]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_rst_n]
+set_property PACKAGE_PIN N15 [get_ports sys_rst_n]
+set_property PACKAGE_PIN L13 [get_ports clk_out]
+set_property PACKAGE_PIN M13 [get_ports clk_test]
+set_property PACKAGE_PIN W19 [get_ports sys_clk]
+
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_test_IBUF]
