@@ -1,2 +1,2 @@
 # -
-在FPGA上实现高精度频率计
+freq_meter
